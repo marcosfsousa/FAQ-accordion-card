@@ -149,10 +149,10 @@ label {
    
     .image_box {       
         position: absolute;
-        left: 476px;
+        left: 215px;
         width: 700px;
-        top: 180px;
-        height: 64%;
+        top: 131px;
+        height: 85%;
         overflow: hidden;
     }
     
@@ -162,12 +162,12 @@ label {
         padding-right: 115px;
         padding-bottom: 80px;
         font-size: 1.2em;
-        max-width: 50%;
-        margin: 0px auto 250px auto; 
+        max-width: 70%;
+        margin: -50px auto 250px auto;
     }
 
     .text-center {
-        margin-right: -135px;
+        margin-right: -183px;
         padding-bottom: 10px;
         
     }
@@ -195,7 +195,7 @@ label {
 
     .img-desk-background {
         position: relative;
-        top: -665px;
+        top: -672px;
         left: -575px;
         
     }
@@ -208,8 +208,8 @@ label {
     }
     .img-box-desktop {
         position: relative;
-        top: 379px;
-        left: 384px;
+        top: 324px;
+        left: 123px;        
         z-index: 9999;
     }
 }    
