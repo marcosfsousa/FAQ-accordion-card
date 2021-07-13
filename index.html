@@ -5,36 +5,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution a { color: hsl(0, 0%, 100%); }
   </style>
 </head>
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
-
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
-
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
-
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
-
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <!-- <div class="no-overflow"> -->
+    <img src="images/illustration-box-desktop.svg" alt="" class="img-box-desktop">
+    <div class="container">
+      <div class="image_box">
+        <img src="images/illustration-woman-online-mobile.svg" alt="" class="img-mob-foreground">
+        <img src="images/bg-pattern-mobile.svg" alt="" class="img-mob-background">
+        <img src="images/illustration-woman-online-desktop.svg" alt="" class="img-desk-woman">
+        <img src="images/bg-pattern-desktop.svg" alt="" class="img-desk-background">            
+      </div>      
+    
+      <h1 class="text-center">FAQ</h1>
+      <div class="divider">
+        <input type="checkbox" name="faq_accordion" id="question_1" class="question_input">
+        <label for="question_1" class="question_label">How many team members can I invite?</label>
+          <div class="answer">
+            You can invite up to 2 additional users on the Free plan. There is no limit on
+            team members for the Premium plan.
+          </div>
+      </div>
+      <div class="divider">
+        <input type="checkbox" name="faq_accordion" id="question_2" class="question_input">
+        <label for="question_2" class="question_label">What is the maximum file upload size?</label>
+          <div class="answer">
+            No more than 2GB. All files in your account must fit your allotted storage space.
+          </div>
+      </div>
+    
+      <div class="divider">
+        <input type="checkbox" name="faq_accordion" id="question_3" class="question_input">
+        <label for="question_3" class="question_label">How do I reset my password?</label>
+          <div class="answer">
+            Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.
+          </div>
+      </div>
+      <div class="divider">
+        <input type="checkbox" name="faq_accordion" id="question_4" class="question_input">
+        <label for="question_4" class="question_label">Can I cancel my subscription?</label>
+          <div class="answer">
+            Yes! Send us a message and we’ll process your request no questions asked.
+          </div>
+      </div>
+      <div class="divider">
+        <input type="checkbox" name="faq_accordion" id="question_5" class="question_input">
+        <label for="question_5" class="question_label">Do you provide additional support?</label>
+          <div class="answer">
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </div>
+      </div>
+    </div>
+  <!-- </div> -->
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Marcos Sousa</a>.
+    </div>
+  
 </body>
 </html>
